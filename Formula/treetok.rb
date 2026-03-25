@@ -1,25 +1,25 @@
 class Treetok < Formula
   desc "Display directory trees with LLM token counts"
   homepage "https://github.com/li-kai/treetok"
-  version "0.1.6"
+  version "0.1.7"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/li-kai/treetok/releases/download/v0.1.6/treetok-aarch64-apple-darwin.tar.xz"
-      sha256 "a9957e346257e4f72b2c58cf98560677425113366fcfe6f4132c2a58635ca251"
+      url "https://github.com/li-kai/treetok/releases/download/v0.1.7/treetok-aarch64-apple-darwin.tar.xz"
+      sha256 "3c32953c38c491588984838b75a69921b7938ff46400ec5cc4362eff890237c6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/li-kai/treetok/releases/download/v0.1.6/treetok-x86_64-apple-darwin.tar.xz"
-      sha256 "455f25ea055621fb42d9aba3b55c2493efa0847563d94098e9b8eb35e2df1776"
+      url "https://github.com/li-kai/treetok/releases/download/v0.1.7/treetok-x86_64-apple-darwin.tar.xz"
+      sha256 "138ab05798711621a1b56aee3ba1bdfa6aba693fe45a410d81eb595f243d3272"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/li-kai/treetok/releases/download/v0.1.6/treetok-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "87e9cc2a3f96187aa79f314822efd065213369e888b01adf56e2eeb2ec93be1d"
+      url "https://github.com/li-kai/treetok/releases/download/v0.1.7/treetok-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "37beec9c6e527c59b8e473b95b874154f22a653ac51d2c7da1c591999e3c069f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/li-kai/treetok/releases/download/v0.1.6/treetok-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "af7d7dfb10abd3d0214c1ca0d1d715dd3c9249e7a85ea77efa798750857bcabf"
+      url "https://github.com/li-kai/treetok/releases/download/v0.1.7/treetok-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1a4b0db3b00e550bc121c362f0dadbc633dbe3d1c5ad30465395f1fb4057d6f9"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
